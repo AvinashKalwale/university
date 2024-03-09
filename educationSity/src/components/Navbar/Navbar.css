@@ -27,6 +27,10 @@ nav ul li{
     transition: 0.5s;
 }
 
+.menu-icon{
+    display: none;
+}
+
 /* ------------- media query -------------- */
 
 @media (max-width:1000px){
@@ -45,11 +49,26 @@ nav{
 nav ul{
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0px;
+    bottom: 0;
     background: #212EA0;
     z-index: -1;
     width: 200px;
     padding-top: 70px;
     transition: 0.5s;
+}
+
+nav ul li{
+    display: block;
+    margin: 25px 40px;
+}
+
+.menu-icon{
+    display: block;
+    width: 30px ;
+
+}
+.hide-mobile-menu{
+    right: -200px;
 }
 }
