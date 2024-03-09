@@ -54,5 +54,15 @@ margin-right: 10px;
 .contact-col span{
     display: block;
     margin: 20px 0;
-    
+}
+
+/* ------------- media query -------------- */
+
+@media (max-width: 700px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
 }
